@@ -1,10 +1,11 @@
 
+import { useState } from "react";
 import { FaCartArrowDown, FaRegHeart } from "react-icons/fa";
 import { Link, NavLink } from "react-router-dom";
 const Navbar = () => {
-    
+    const [cartCout, setCartCount] = useState(0);
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -46,10 +47,12 @@ const Navbar = () => {
             </div>
             <div className="navbar-end">
                 <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
-                    <div className="indicator">
-                        <Link to="/cart"><FaCartArrowDown className="text-2xl" /></Link>
-                        <span className="badge badge-sm indicator-item">8</span>
-                    </div>
+                    <Link to="/cart">
+                        <div className="indicator">
+                            <FaCartArrowDown className="text-2xl" />
+                            <span className="badge badge-sm indicator-item">{cartCout}</span>
+                        </div>
+                    </Link>
                 </div>
                 <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
                     <Link to='/wishlist'><FaRegHeart className="text-2xl" /></Link>

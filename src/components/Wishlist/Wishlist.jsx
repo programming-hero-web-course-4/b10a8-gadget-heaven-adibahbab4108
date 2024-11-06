@@ -1,16 +1,22 @@
-import { getAllFromLocalStorage } from "../../routes/utility/utils";
+import { deleteFromList, getAllFromLocalStorage } from "../../routes/utility/utils";
 import { useEffect, useState } from "react";
 import { RiDeleteBin6Fill } from "react-icons/ri";
 import AddToCartBtn from "../Buttons/AddToCartBtn";
 
 const Wishlist = () => {
     const [wishlist, setWishlist] = useState([])
-    // console.log(wishlist.length)
+
     useEffect(() => {
         const cart = getAllFromLocalStorage('wishlist');
         setWishlist(cart);
 
     }, [])
+
+    const handleDeleteBtn = (id, type) => {
+        deleteFromList(id, type)
+        const cart = getAllFromLocalStorage('wishlist');
+        setWishlist(cart);
+    }
     return (
         <>
             <div>
@@ -31,9 +37,12 @@ const Wishlist = () => {
                                     <AddToCartBtn gadget={item} />
                                 </div>
                             </div>
-                            <button className=""> <RiDeleteBin6Fill className="text-red-600 text-4xl mr-6 " /></button>
+                            <button onClick={() => handleDeleteBtn(item.product_id, 'wishlist')}> <RiDeleteBin6Fill className="text-red-600 text-4xl mr-6 " /></button>
                         </div>
                     ))
+                }
+                {
+                    wishlist.length == 0 ? <h2 className="text-3xl text-warning font-bold text-center"> Nothing in the Wishlist</h2> : ''
                 }
             </div>
         </>
