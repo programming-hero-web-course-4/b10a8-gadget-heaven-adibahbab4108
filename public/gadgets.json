@@ -1,0 +1,253 @@
+{
+  "products": [
+    {
+      "product_id": "SM-G998B",
+      "product_title": "Samsung Galaxy S21 Ultra",
+      "product_image": "https://www.gta.net/hubfs/Phones%20and%20Devices/Samsung%20Galaxy%20Series/S21%20Ultra/S21%20Ultra%20Graphite.png",
+      "category": "Smartphone",
+      "price": 1199.99,
+      "description": "5G, 6.8-inch Dynamic AMOLED 2X display, 108MP quad-camera, a massive 5000mAh battery.",
+      "specification": {
+        "Display": "6.8 inches, Dynamic AMOLED 2X",
+        "Resolution": "1440 x 3200 pixels",
+        "Processor": "Exynos 2100 (Global), Snapdragon 888 (USA)",
+        "RAM": "12GB/16GB",
+        "Storage": "128GB/256GB/512GB",
+        "Battery": "5000 mAh, Fast charging 25W",
+        "Camera": "108MP (Wide), 10MP (Periscope Telephoto), 10MP (Telephoto), 12MP (Ultrawide)",
+        "OS": "Android 11, upgradable to Android 13"
+      },
+      "availability": true,
+      "rating": 4.8,
+      "launch_year": 2021
+    },
+    {
+      "product_id": "IP-14P",
+      "product_title": "Apple iPhone 14 Pro",
+      "product_image": "https://m.xcite.com/media/catalog/product//i/p/iphone_14_pro_-_silver_1_1_1.jpg",
+      "category": "Smartphone",
+      "price": 999.99,
+      "description": "6.1-inch Super Retina XDR display, A16 Bionic chip, and advanced camera system with 48MP main sensor.",
+      "specification": {
+        "Display": "6.1 inches, Super Retina XDR OLED",
+        "Resolution": "1179 x 2556 pixels",
+        "Processor": "A16 Bionic",
+        "RAM": "6GB",
+        "Storage": "128GB/256GB/512GB/1TB",
+        "Battery": "3200 mAh, Fast charging 20W",
+        "Camera": "48MP (Main), 12MP (Telephoto), 12MP (Ultrawide)",
+        "OS": "iOS 16, upgradable"
+      },
+      "availability": true,
+      "rating": 4.9,
+      "launch_year": 2022
+    },
+    {
+      "product_id": "PI-12",
+      "product_title": "Google Pixel 7 Pro",
+      "product_image": "https://m.media-amazon.com/images/I/712JkPUUlRL.jpg",
+      "category": "Smartphone",
+      "price": 899.99,
+      "description": "6.7-inch LTPO OLED display, Google Tensor G2 chip, and triple rear cameras for stunning photos.",
+      "specification": {
+        "Display": "6.7 inches, LTPO OLED",
+        "Resolution": "1440 x 3120 pixels",
+        "Processor": "Google Tensor G2",
+        "RAM": "12GB",
+        "Storage": "128GB/256GB/512GB",
+        "Battery": "5000 mAh, Fast charging 23W",
+        "Camera": "50MP (Wide), 48MP (Telephoto), 12MP (Ultrawide)",
+        "OS": "Android 13"
+      },
+      "availability": true,
+      "rating": 4.7,
+      "launch_year": 2022
+    },
+    {
+      "product_id": "ONEPLUS-9",
+      "product_title": "OnePlus 9",
+      "product_image": "https://www.bhphotovideo.com/images/images2500x2500/oneplus_5011101665_9_pro_128gb_5g_1629057.jpg",
+      "category": "Smartphone",
+      "price": 729.99,
+      "description": "6.55-inch Fluid AMOLED display, Snapdragon 888 processor, and Hasselblad camera system.",
+      "specification": {
+        "Display": "6.55 inches, Fluid AMOLED",
+        "Resolution": "1080 x 2400 pixels",
+        "Processor": "Snapdragon 888",
+        "RAM": "8GB/12GB",
+        "Storage": "128GB/256GB",
+        "Battery": "4500 mAh, Fast charging 65W",
+        "Camera": "48MP (Main), 50MP (Ultrawide), 2MP (Monochrome)",
+        "OS": "Android 11, upgradable"
+      },
+      "availability": false,
+      "rating": 4.5,
+      "launch_year": 2021
+    },
+    {
+      "product_id": "XIAOMI-MI11",
+      "product_title": "Xiaomi Mi 11",
+      "product_image": "https://th.bing.com/th/id/R.5576771f6cc8cba1bf44f18c793427ee?rik=0k41TJMsbqGedA&pid=ImgRaw&r=0",
+      "category": "Smartphone",
+      "price": 749.99,
+      "description": "6.81-inch AMOLED display, Snapdragon 888, and triple camera setup.",
+      "specification": {
+        "Display": "6.81 inches, AMOLED",
+        "Resolution": "1440 x 3200 pixels",
+        "Processor": "Snapdragon 888",
+        "RAM": "8GB/12GB",
+        "Storage": "128GB/256GB",
+        "Battery": "4600 mAh, Fast charging 55W",
+        "Camera": "108MP (Main), 13MP (Ultrawide), 5MP (Macro)",
+        "OS": "Android 11, upgradable"
+      },
+      "availability": true,
+      "rating": 4.6,
+      "launch_year": 2021
+    },
+    {
+      "product_id": "MBP-16",
+      "product_title": "Apple MacBook Pro 16",
+      "product_image": "https://cdna.artstation.com/p/marketplace/presentation_assets/000/432/930/large/file.jpg?1593705516",
+      "category": "Laptop",
+      "price": 2499.99,
+      "description": "M1 Pro chip, Retina display, and up to 64GB RAM for professional performance.",
+      "specification": {
+        "Display": "16 inches, Retina",
+        "Resolution": "3456 x 2234 pixels",
+        "Processor": "Apple M1 Pro / M1 Max",
+        "RAM": "16GB/32GB/64GB",
+        "Storage": "512GB/1TB/2TB/4TB/8TB",
+        "Battery": "100Wh, up to 21 hours",
+        "Graphics": "Integrated 16-core GPU (M1 Pro), 32-core GPU (M1 Max)",
+        "OS": "macOS Monterey, upgradable"
+      },
+      "availability": true,
+      "rating": 4.9,
+      "launch_year": 2021
+    },
+    {
+      "product_id": "DLXPS13",
+      "product_title": "Dell XPS 13",
+      "product_image": "https://cdn.mos.cms.futurecdn.net/qSixb4PUnjszJKjh6zV9Nk.jpg",
+      "category": "Laptop",
+      "price": 1299.99,
+      "description": "13.4-inch UHD display, Intel Core i7, and sleek, lightweight design for portability and performance.",
+      "specification": {
+        "Display": "13.4 inches, UHD+",
+        "Resolution": "3840 x 2400 pixels",
+        "Processor": "Intel Core i7-1165G7",
+        "RAM": "8GB/16GB/32GB",
+        "Storage": "256GB/512GB/1TB/2TB",
+        "Battery": "52Wh, up to 12 hours",
+        "Graphics": "Intel Iris Xe Graphics",
+        "OS": "Windows 11 Home"
+      },
+      "availability": true,
+      "rating": 4.8,
+      "launch_year": 2022
+    },
+    {
+      "product_id": "HP-SPECTRE13",
+      "product_title": "HP Spectre x360 13",
+      "product_image": "https://laptopsreviewer.com/wp-content/uploads/2020/12/hp-spectre-x360-11th-gen-intel-core-i7-full-hd-touchscreen-1536x1306.jpg",
+      "category": "Laptop",
+      "price": 1399.99,
+      "description": "13.3-inch Full HD display, Intel Core i7, and convertible design for versatility.",
+      "specification": {
+        "Display": "13.3 inches, Full HD",
+        "Resolution": "1920 x 1080 pixels",
+        "Processor": "Intel Core i7-1165G7",
+        "RAM": "16GB",
+        "Storage": "512GB/1TB",
+        "Battery": "60Wh, up to 15 hours",
+        "Graphics": "Intel Iris Xe Graphics",
+        "OS": "Windows 11 Home"
+      },
+      "availability": false,
+      "rating": 4.7,
+      "launch_year": 2021
+    },
+    {
+      "product_id": "LENOVO-YOGA9I",
+      "product_title": "Lenovo Yoga 9i",
+      "product_image": "https://th.bing.com/th/id/R.d151918d9e48c575aa2d564afad6ffd8?rik=u024hL8z1X1JAg&pid=ImgRaw&r=0",
+      "category": "Laptop",
+      "price": 1599.99,
+      "description": "14-inch 4K touchscreen, Intel Core i7, and premium audio experience.",
+      "specification": {
+        "Display": "14 inches, 4K",
+        "Resolution": "3840 x 2160 pixels",
+        "Processor": "Intel Core i7-1185G7",
+        "RAM": "16GB",
+        "Storage": "512GB/1TB",
+        "Battery": "70Wh, up to 14 hours",
+        "Graphics": "Intel Iris Xe Graphics",
+        "OS": "Windows 11 Home"
+      },
+      "availability": true,
+      "rating": 4.8,
+      "launch_year": 2021
+    },
+    {
+      "product_id": "AW7",
+      "product_title": "Apple Watch Series 7",
+      "product_image": "https://th.bing.com/th/id/R.5b1d8d9bc8247a024bd47e3e8b28d239?rik=etsrvDhoVRswRg&pid=ImgRaw&r=0",
+      "category": "Smartwatch",
+      "price": 399.99,
+      "description": "always-on Retina display, ECG and blood oxygen monitoring, and fitness tracking.",
+      "specification": {
+        "Display": "1.9 inches, Retina",
+        "Resolution": "484 x 396 pixels",
+        "Processor": "Apple S7",
+        "Storage": "32GB",
+        "Battery": "18 hours, Fast charging",
+        "Features": "Heart rate monitor, ECG, Blood oxygen sensor, Fitness tracking",
+        "OS": "watchOS 8"
+      },
+      "availability": true,
+      "rating": 4.8,
+      "launch_year": 2021
+    },
+    {
+      "product_id": "SGW4",
+      "product_title": "Samsung Galaxy Watch 4",
+      "product_image": "https://th.bing.com/th/id/OIP.woRrqCgEgILBNIrr_iMljgHaE8?rs=1&pid=ImgDetMain",
+      "category": "Smartwatch",
+      "price": 249.99,
+      "description": "Wear OS, body composition analysis, and comprehensive fitness tracking features.",
+      "specification": {
+        "Display": "1.4 inches, Super AMOLED",
+        "Resolution": "450 x 450 pixels",
+        "Processor": "Exynos W920",
+        "Storage": "16GB",
+        "Battery": "40 hours, Fast charging",
+        "Features": "Heart rate monitor, ECG, Body composition analysis, Fitness tracking",
+        "OS": "Wear OS 3"
+      },
+      "availability": true,
+      "rating": 4.6,
+      "launch_year": 2021
+    },
+    {
+      "product_id": "FOSSIL-GEN5",
+      "product_title": "Fossil Gen 5",
+      "product_image": "https://th.bing.com/th/id/OIP.E1pmwAWfYv1YeFX2dNSTigHaHa?rs=1&pid=ImgDetMain",
+      "category": "Smartwatch",
+      "price": 299.99,
+      "description": " Wear OS, customizable dial, and fitness tracking features.",
+      "specification": {
+        "Display": "1.28 inches, AMOLED",
+        "Resolution": "416 x 416 pixels",
+        "Processor": "Qualcomm Snapdragon Wear 3100",
+        "Storage": "8GB",
+        "Battery": "24 hours, Rapid charging",
+        "Features": "Heart rate monitor, Fitness tracking",
+        "OS": "Wear OS"
+      },
+      "availability": true,
+      "rating": 4.5,
+      "launch_year": 2019
+    }
+  ]
+}
